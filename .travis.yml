@@ -10,7 +10,7 @@ before_script:
   - npm install grunt-cli -g
 
 script:
-  - CI='' npm run build
+  - CI='' npm run
  
 deploy:
   provider: heroku
