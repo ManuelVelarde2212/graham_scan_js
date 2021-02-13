@@ -3,6 +3,9 @@ node_js:
   - "stable"
 cache: npm
 
+install:
+  - npm ci
+  
 before_script:
   - npm install grunt-cli -g
 
