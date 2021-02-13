@@ -5,10 +5,7 @@ cache: npm
 
 before_script:
   - npm install grunt-cli -g
-  
-install:
-  - npm ci
-  
+
 script:
   - CI='' npm run build
  
